@@ -9,7 +9,7 @@ public class StupidSimpleRestController
     @GetMapping("/sayHi")
     public String hello()
     {
-        return "Hello";
+        return "HelloYall";
     }
 
 }
