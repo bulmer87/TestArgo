@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
-  pullPolicy: IfNotPresent
+  repository: bulmer87/demcontainers
+  pullPolicy: always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "ArgoRest-1.0.0"
 
 imagePullSecrets: []
 nameOverride: ""

@@ -1,0 +1,15 @@
+package argo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StupidSimpleRestController
+{
+    @GetMapping("/sayHi")
+    public String hello()
+    {
+        return "Hello";
+    }
+
+}
