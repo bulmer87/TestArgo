@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: bulmer87/demcontainers
-  pullPolicy: always
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: "ArgoRest-1.0.0"
 
