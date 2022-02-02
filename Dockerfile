@@ -1,4 +1,4 @@
-from centos:latest
+from openjdk:11.0.13-slim-bullseye
 
 copy build/libs/* /opt/test/TestArgo.jar
 
